@@ -1,0 +1,63 @@
+CAMBIOS GENERADOS OCTUBRE.
+
+Solicitante: Martin Héctor Olvera Bautista
+Nombre del Campo: Inventario
+Descripción: contiene la información del producto.
+Objeto: Oportunity Producto.
+
+CAMBIOS GENERADOS NOVIEMBRE.
+Solicitante: Martin Héctor Olvera Bautista
+Nombre del Campo: Cilindro_2__c
+Descripción: Sirve para poner el cilindraje del lente secundario de la cirugía
+Objeto: Cirugía
+Fecha: 16/11/2021
+
+CAMBIOS GENERADOS EN DICIEMBRE.
+Solicitante: Martin Héctor Olvera Bautista
+Nombre del Campo: Factura_Sin_Anticipos__C
+Descripción: Cuando los pagos de una estimación son enviados y tienen ese check solo genera su múltiple pago y no genera anticipos.
+Objeto: Transacción
+Fecha: 8/12/2021
+
+Solicitante: José Eduardo Malvafon
+Nombre del Campo: Proviene_de_campa_a_CR__c
+Descripción: Campo que se utilizará para mapear el código de cupón o código de referencia cuando un usuario de página web ingrese los datos en el formulario, este campo será utilizado como prioridad antes que las utm’s, y con el se designará el código único que tendrá el paciente al llegar a clínica si es que es llenado.
+Objeto: Activity
+Fecha: 20/12/2021
+Relación con el objeto:  Campaing
+
+
+Solicitante: Martin Héctor Olvera Bautista
+Nombre del Campo: Transaccion SF
+Descripción: Sirve para que los pagos enviados a Netsuite y los retiros de valor tengan la referencia del folio de Salesforce.
+Objeto: CustomerPayment y Transfer
+Fecha: 23/12/2021
+Tipo de Campo: Free Form Text
+
+CAMBIOS SOLICITADOS EN ENERO 2022
+
+
+Solicitante: José Eduardo Malvafon
+Nombre del Campo: Nombre del Paciente.
+Descripción: Campo que se llenara por medio del flujo de la agenda de cirugía inteligente , el campo contendrá el nombre y los apellidos del paciente al cual se le realizara la cirugía, inyeccion, estudio o tratamiento con láser.
+Objeto: Cirujia
+Tamaño: 255.
+Tipo de Campo: Text.
+Fecha: 18/01/2022
+
+
+Solicitante: José Eduardo Malvafon
+Nombre del Campo: Tipo de Tecnica.
+Descripción: Campo donde se guardaran los datos de la agenda según el tipo de técnica utilizada por el doctor sea para crosslinking o LASIK
+Objeto: Cirujia
+Tamaño: 4 Max.(LASIK, PRK, EPI ON, EPI OFF)
+Tipo de Campo: Picklist
+Fecha: 18/01/2022
+
+
+Solicitante: José Eduardo Malvafon
+Nombre del Campo: Lugar de Procedimiento.
+Descripción:Campo que se llenará desde el flujo de agenda donde se almacenará el lugar de procedimiento para realizar la cirugía ,o inyección
+Tamaño: 3 Max.(GABINETE, QUIROFANO, SALA DE PROCEDIMIENTOS)
+Tipo de Campo: Picklist
+Fecha: 18/01/2022
